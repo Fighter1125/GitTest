@@ -37,7 +37,6 @@
 
 2. 如果删错了，则可以使用`checkout -- <file>` 从版本库中还原
 
-<<<<<<< HEAD
 ---
 > ### 添加远程库
 
@@ -49,12 +48,13 @@
 
 ---
 > ### 分支管理
-=======
-dfsffds
->>>>>>> dev
 
 1. `git checkout -b dev`  创建并切换到dev分支
 
 2. `git branch` 查看当前分支
 
-3. `git merge `
+3. `git merge dev` 合并dev分支到当前分支
+
+4. `git branch -d dev` 删除dev分支 
+
+fdsfds
