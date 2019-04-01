@@ -49,11 +49,15 @@
 ---
 > ### 分支管理
 
-1. `git checkout -b dev`  创建并切换到dev分支
+1. `git branch dev` 创建dev分支
 
-2. `git branch` 查看当前分支
+2. `git checkout dev` 切换到dev分支
+ 
+3. `git checkout -b dev`  创建并切换到dev分支
 
-3. `git merge dev` 合并dev分支到当前分支
+4. `git branch` 查看当前分支
 
-4. `git branch -d dev` 删除dev分支 
+5. `git merge dev` 合并dev分支到当前分支
+
+6. `git branch -d dev` 删除dev分支 
 
