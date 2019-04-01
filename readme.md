@@ -52,3 +52,5 @@
 1. `git checkout -b dev`  创建并切换到dev分支
 
 2. `git branch` 查看当前分支
+
+3. `git merge `
