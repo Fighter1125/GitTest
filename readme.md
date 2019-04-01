@@ -1,33 +1,34 @@
 工作区 | 版本库 |
 :---:|:---:|
    a | 暂存区、分支（master） |  
+   
 1. `git init` 创建本地库
 
 2. `git add` 添加到暂存区
 
 3. `git commit -m "提交信息"` 提交到当前分支
 
-3. `git diff`  查看文件修改了哪些内容
+4. `git diff`  查看文件修改了哪些内容
 
-4. `git status` 查看工作区状态
+5. `git status` 查看工作区状态
 
-5. `git log` 查看提交历史记录
+6. `git log` 查看提交历史记录
 ---
 
 > ### 回退版本
 
-6. `git reset --hard HEAD^` 回退到上一个版本, `--hard`
+1. `git reset --hard HEAD^` 回退到上一个版本, `--hard`
 
-7. `git reset --hard id`  回退到指定版本号
+2. `git reset --hard id`  回退到指定版本号
 
-8. `git reflog` 查看命令历史 ，当回退错误时，想要恢复，可以用此命令查看版本号id,然后再恢复
+3. `git reflog` 查看命令历史 ，当回退错误时，想要恢复，可以用此命令查看版本号id,然后再恢复
 
 ---
 > ### 撤销修改
 
-9. `git checkout  -- <file>` 撤销修改
+1. `git checkout  -- <file>` 撤销修改
 
-10. `git reset HEAD <file>` 撤销暂存区的修改，回退到工作区
+2. `git reset HEAD <file>` 撤销暂存区的修改，回退到工作区
 
 > ### 删除文件
 
