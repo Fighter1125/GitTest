@@ -29,6 +29,11 @@
 
 10. `git reset HEAD <file>` 撤销暂存区的修改，回退到工作区
 
+> ### 删除文件
+
+1. `git rm <file>` 如果要从版本库删除，则 `rm` 后还需要 `commit`
+
+2. 如果删错了，则可以使用`checkout -- <file>` 从版本库中还原
 
 
 
