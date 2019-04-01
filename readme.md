@@ -49,6 +49,8 @@
 ---
 > ### 分支管理
 
+ 合并分支时，加上`--no-ff`参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而 fast forward 合并就看不出来曾经做过合并。
+
 1. `git branch dev` 创建dev分支
 
 2. `git checkout dev` 切换到dev分支
@@ -61,4 +63,3 @@
 
 6. `git branch -d dev` 删除dev分支 
 
-fsdfdfdsa
