@@ -12,6 +12,9 @@
 4. `git status` 查看工作区状态
 
 5. `git log` 查看提交历史记录
+---
+
+> ### 回退版本
 
 6. `git reset --hard HEAD^` 回退到上一个版本, `--hard`
 
@@ -19,7 +22,12 @@
 
 8. `git reflog` 查看命令历史 ，当回退错误时，想要恢复，可以用此命令查看版本号id,然后再恢复
 
+---
+> ### 撤销修改
+
 9. `git checkout  -- <file>` 撤销修改
+
+10. `git reset HEAD <file>` 撤销暂存区的修改，回退到工作区
 
 
 
