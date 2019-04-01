@@ -8,8 +8,9 @@
 
 5. `git log` 查看提交历史记录
 
+6. `git reset --hard HEAD^` 回退到上一个版本, `--hard`
 
-
+7. `git reset ` 
 
 
 
