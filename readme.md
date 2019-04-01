@@ -1,6 +1,6 @@
 工作区 | 版本库 |
 :---:|:---:|
-   a | 暂存区、分支（master） |  
+   a | 暂存区、主分支（master） |  
    
 1. `git init` 创建本地库
 
@@ -30,13 +30,25 @@
 
 2. `git reset HEAD <file>` 撤销暂存区的修改，回退到工作区
 
+---
 > ### 删除文件
 
 1. `git rm <file>` 如果要从版本库删除，则 `rm` 后还需要 `commit`
 
 2. 如果删错了，则可以使用`checkout -- <file>` 从版本库中还原
 
+---
+> ### 添加远程库
 
+1. `git remote add origin 仓库地址`  关联远程库
 
+2. `git push -u origin master`  push到远程库
 
+3. `git clone 仓库地址`  克隆远程库
 
+---
+> ### 分支管理
+
+1. `git checkout -b dev`  创建并切换到dev分支
+
+2. `git branch` 查看当前分支
